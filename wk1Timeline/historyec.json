@@ -1,0 +1,252 @@
+
+{
+    "timeline":
+    {
+        "headline":"История экономической мысли: от Ксенофонта до Адама Смита",
+        "type":"default",
+		"text":"<p>Хронология по материалам первой недели <a href=\"https://www.coursera.org/course/historyofec\">курса ВШЭ</a>.</p><p>Античность, средние века, новое время.</p>",
+		"startDate":"2014,4,4",
+        "date": [
+            {
+                "startDate":"-444",
+		"endDate":"-356",
+                "headline":"Ксенофонт",
+                "text":"<p><a href=\"http://ancientrome.ru/antlitr/ksenoph/socratic/ds.htm\">«Ойкономия»</a></p> <p>«Отучение жены от косметических средств и приучение к укреплению тела заботами о хозяйстве»</p><p>Антрополог <a href=\"http://ru.wikipedia.org/wiki/Поланьи,_Карл\">Карл Поланьи</a> об «анонимности» экономики в этот период: <em>«В ранних обществах «экономический процесс институционально оформляется посредством отношений родства, брака, возрастных групп, тайных обществ, тотемных ассоциаций и общественных торжеств. Термин \"экономическая жизнь\" не имеет здесь очевидного значения»</em></p> <p><a href=\"http://ru.wikipedia.org/wiki/Ксенофонт\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+                "tag": "1",
+		"asset":
+                {
+                    "media":"http://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Xenophon.jpg/256px-Xenophon.jpg?uselang=ru",
+		    "thumbnail":"http://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Xenophon.jpg/32px-Xenophon.jpg",
+                    "credit":"Автор неизвестен. Scan by User:Gabor [Public domain], undefined",
+                    "caption":""
+                }
+            },
+	    {
+                "startDate":"-384",
+		"endDate":"-322",
+                "headline":"Аристотель",
+                "text":"<p>Экономика - область человеческой деятельности, направленная на умножение богатства.</p> <p>«Богатство - не цель, но лишь средство!»</p><p>Ярое неприятие ростовщичества</p><p><a href=\"http://ru.wikipedia.org/wiki/Аристотель\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+
+                "tag" : "1",
+		"asset":
+                {
+                    "media":"http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Aristoteles_Louvre.jpg/256px-Aristoteles_Louvre.jpg?uselang=ru",
+		    "thumbnail":"http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Aristoteles_Louvre.jpg/32px-Aristoteles_Louvre.jpg",
+                    "credit":"Автор оригинала — Лисипп [CC-BY-SA-2.5 (http://creativecommons.org/licenses/by-sa/2.5)], undefined",
+                    "caption":""
+                }
+            },
+	    {
+                "startDate":"347",
+		"endDate":"407,9,14",
+                "headline":"Иоанн Златоуст",
+                "text":"<p>.«..не тот беден, у кого ничего нет, но тот кому много требуется»</p><p><a href=\"http://ru.wikipedia.org/wiki/Иоанн_Златоуст\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+		"tag" : "1",
+                "asset":
+                {
+                    "media":"http://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Иоанн_Златоуст_Софийский_собор_11_век.JPG/256px-Иоанн_Златоуст_Софийский_собор_11_век.JPG?uselang=ru",
+		    "thumbnail":"http://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Johnchrysostom.jpg/202px-Johnchrysostom.jpg",
+                    "credit":"Автор Unk, anonimus (собственная работа photo) [Public domain, Public domain undefined CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0)], undefined",
+                    "caption":"Софийский собор, Киев. Мозаика XI века"
+                }
+            },
+            {
+                "startDate":"1330",
+		"endDate":"1382,7,11",
+                "headline":"Николай Орем",
+                "text":"<p>Государь - не хозяин денег (критика «порчи монеты»)</p><p>Ректор Парижского Университета</p> <p>Первый трактат в истории экономический мысли, целиком посвященный экономическому предмету - деньгам</p> <p><a href=\"http://ru.wikipedia.org/wiki/Орем,_Николай\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+                "tag" : "1",
+		"asset":
+                {
+                    "media":"http://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Oresme.jpg/495px-Oresme.jpg",
+		    "thumbnail":"http://upload.wikimedia.org/wikipedia/commons/a/a7/Oresme-small.jpg",
+                    "credit":"Public domain",
+                    "caption":""
+                }
+            },
+	    {
+                "startDate":"1509,7,10",
+		"endDate":"1567,5,27",
+                "headline":"Жан Кальвин",
+                "text":"<p>Сторонник отмены запрета на взимание ссудного процента</p> <p><a href=\"http://ru.wikipedia.org/wiki/Кальвин,_Жан\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+		"tag" : "3",
+                "asset":
+                {
+                    "media":"http://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Portrait_de_Jean_Calvin.jpg/256px-Portrait_de_Jean_Calvin.jpg",
+		    "thumbnail":"http://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Calvin_1562.jpg/32px-Calvin_1562.jpg",
+                    "credit":"Étienne-Jehandier Desrochers [CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons",
+                    "caption":""
+                }
+            },
+  	    {
+                "startDate":"1483,11,10",
+		"endDate":"1546,2,18",
+                "headline":"Мартин Лютер",
+                "text":"<p>Ярый противник ростовщичества</p> <p><a href=\"http://ru.wikipedia.org/wiki/Лютер,_Мартин\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+		"tag" : "1",
+                "asset":
+                {
+                    "media":"http://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Lucas_Cranach_d.Ä._(Werkst.)_-_Porträt_des_Martin_Luther_(Lutherhaus_Wittenberg).jpg/256px-Lucas_Cranach_d.Ä._(Werkst.)_-_Porträt_des_Martin_Luther_(Lutherhaus_Wittenberg).jpg",
+		    "thumbnail":"http://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Portrait_of_Martin_Luther_at_the_Deutsches_Historisches_Museum.jpg/128px-Portrait_of_Martin_Luther_at_the_Deutsches_Historisches_Museum.jpg",
+                    "credit":"Workshop of Lucas Cranach the Elder [Public domain], via Wikimedia Commons",
+                    "caption":""
+                }
+            },
+	    {
+                "startDate":"1632,08,29",
+		"endDate":"1704,10,28",
+                "headline":"Джон Локк",
+                "text":"<p>Разработал трудовую теорию собственности, развивал идею частной собственности</p><p>Обосновывал необходимость отмены запретов на ростовщичество</p><p><a href=\"http://ru.wikipedia.org/wiki/Джон_Локк\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+		"tag" : "2",
+                "asset":
+                {
+                    "media": "http://upload.wikimedia.org/wikipedia/commons/b/b8/John_Locke.jpg?uselang=ru",
+		    "thumbnail":"http://upload.wikimedia.org/wikipedia/commons/b/b8/John_Locke.jpg",
+                    "credit":"Готфрид Кнеллер [Public domain], undefined",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1630",
+		"endDate":"1699",
+                "headline":"Джосайя Чайлд",
+		"tag" : "3",
+                "text":"<p>Руководитель ост-индийской компании</p><p>Сторонник жесткого регулирования ссудного процента</p><p>Обосновывал необходимость отмены запретов на ростовщичество</p><p><a href=\"http://en.wikipedia.org/wiki/Josiah_Child\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+                "asset":
+                {
+                    "media":"http://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sir_Josiah_Child,_Bt_by_John_Riley.jpg/256px-Sir_Josiah_Child,_Bt_by_John_Riley.jpg",
+		    "thumbnail":"http://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sir_Josiah_Child,_Bt_by_John_Riley.jpg/128px-Sir_Josiah_Child,_Bt_by_John_Riley.jpg",
+                    "credit":"By John Riley (died 1691) [Public domain], via Wikimedia Commons",
+                    "caption":""
+                }
+            },
+	    {
+                "startDate":"1660",
+		"endDate":"1731,4,24",
+                "headline":"Даниель Дефо",
+                "text":"<p>«...если зарплата - низкая и жалкая, такой же будет и жизнь; если люди получают мало, они смогут мало и тратить, и это сразу скажется на торговле»</p><p><a href=\"http://ru.wikipedia.org/wiki/Дефо,_Даниель\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+                "tag" : "1",
+		"asset":
+                {
+                    "media": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Daniel_Defoe_Kneller_Style.jpg/256px-Daniel_Defoe_Kneller_Style.jpg",
+		    "thumbnail": "http://upload.wikimedia.org/wikipedia/commons/7/78/Daniel_Defoe_1706.jpg",
+                    "credit":"By Unknown, style of Sir Godfrey Kneller [Public domain], via Wikimedia Commons",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1741,9,11",
+		"endDate":"1820,4,12",
+                "headline":"Артур Юнг",
+                "text":"<p>«Всякий, если он не идиот, знает, что низшие классы следует держать в бедности, иначе они не будут трудолюбивыми...»</p> <p>Выражение общего мнения, распространенного в меркантилисткой литературе эпохи.</p><p><a href=\"http://ru.wikipedia.org/wiki/Юнг,_Артур\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+		"tag" : "1",
+                "asset":
+                {
+                    "media": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Arthur_Young_(1741-1820).jpg/256px-Arthur_Young_(1741-1820).jpg?uselang=ru",
+		    "thumbnail": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Arthur_Young_(1741-1820).jpg/32px-Arthur_Young_(1741-1820).jpg",
+                    "credit":"John Russell [Public domain], undefined",
+                    "caption":""
+                }
+            },
+	    {
+                "startDate":"1571,6,17",
+		"endDate":"1641,7,21",
+                "headline":"Томас Ман",
+                "text":"<p>Один из руководителей ост-индийской компании</p><p>Защита торговых практик ост-индийской компании, закупавшей товары за золото и серебро от критики <a href=\"http://en.wikipedia.org/wiki/Bullionism\">бульонистов</a></p><p>Идея многостороннего торгового баланса</p><p><a href=\"http://ru.wikipedia.org/wiki/Ман,_Томас\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+		"tag" : "1",
+                "asset":
+                {
+                    "media": "http://upload.wikimedia.org/wikipedia/commons/1/14/Thomas_Mun.gif",
+		    "thumbnail": "http://upload.wikimedia.org/wikipedia/commons/1/14/Thomas_Mun.gif",
+                    "credit":"See page for author [Public domain], via Wikimedia Commons",
+                    "caption":""
+                }
+            },
+	    {
+                "startDate":"1623,5,27",
+		"endDate":"1687,12,16",
+                "headline":"Уильям Петти",
+                "text":"«...вместо того, чтобы употреблять только слова в сравнительной и превосходной степени и умозрительные аргументы, я вступил на путь выражения своих мнений на языке чисел, весов и мер..., используя только аргументы, идущие от чувственного опыта, и рассматривая только причины, имеющие видимые основнаия в природе»</p> <p>Попытка пойти путем естествознания, выстроить экономику, как эмпирическую науку</p> <p>1676/1690: <a href=\"http://rutracker.org/forum/viewtopic.php?t=1349743\"><em>Политическая арифметика</em></a></p> <p>Основоположник <a href=\"http://ru.wikipedia.org/wiki/Эконометрика\">эконометрики</a></p> <p><a href=\"http://ru.wikipedia.org/wiki/Петти,_Уильям\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+                "tag" : "1",
+		"asset":
+                {
+                    "media": "http://upload.wikimedia.org/wikipedia/commons/e/ee/SirWilliamPetty.jpg",
+		    "thumbnail": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sir_William_Petty_by_Isaac_Fuller.jpg/128px-Sir_William_Petty_by_Isaac_Fuller.jpg",
+                    "credit":"By Isaac Fuller (1606?–72) [Public domain or Public domain], via Wikimedia Commons",
+                    "caption":""
+                }
+            },
+           {
+                "startDate":"1671,4,21",
+		"endDate":"1729,3,11",
+                "headline":"Джон Ло",
+                "text":"<p>Создатель <a href=\"http://ru.wikipedia.org/wiki/Система_Ло\">системы Ло</a> (предвосхитившей современные денежные системы), крах которой дискредитировал попытки решения экономических проблем государства через денежную систему.</p><p>Освободил казну Франции от бремени госдолга, обменяв значительную часть гос. долга на акции \"Миссисипской компании\".</p><p><a href=\"http://ru.wikipedia.org/wiki/Ло,_Джон\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+                "tag" : "2",
+		"asset":
+                {
+                    "media": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/John_Law_by_Alexis_Simon_Belle.jpg/256px-John_Law_by_Alexis_Simon_Belle.jpg?uselang=ru",
+		    "thumbnail": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/John_Law_by_Alexis_Simon_Belle.jpg/128px-John_Law_by_Alexis_Simon_Belle.jpg",
+                    "credit":"Автор Alexis Simon Belle (died 1734) [Public domain], undefined",
+                    "caption":""
+                }
+            },
+	   {
+                "startDate":"1680",
+		"endDate":"1734",
+                "headline":"Ричард Кантильон",
+                "text":"<p>Крупный банкир</p><p>Много заработал на <a href=\"http://ru.wikipedia.org/wiki/Система_Ло\">системе Ло</a>, так как хорошо понимал ее механику</p><p>1755: <a href=\"http://fr.wikisource.org/wiki/Essai_sur_la_nature_du_commerce_en_général\"><em>Опыт о природе коммерции: общие вопросы</em></a> - первый теоретический трактат в области экономической науки</p><p>Выстроил систему абстрактных схем, описывающих экономику в целом.</p><p>Теория трех рент (доход собственников земли, покрытие издержек фермеров и их доход)</p><p>Предприниматель согласует между собой жесткие законы производства и изменчивые вкусы потребителей</p><p><a href=\"http://ru.wikipedia.org/wiki/Кантильон,_Ричард\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+                "tag" : "4",
+		"asset":
+                {
+                    "media": "http://upload.wikimedia.org/wikipedia/commons/9/9c/An_Essay_on_Economic_Theory.jpg",
+		    "thumbnail": "",
+                    "credit":"By Ludwig von Mises Institute [CC-BY-3.0 (http://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons",
+                    "caption":""
+                }
+            },
+	    {
+                "startDate":"1694,6,4",
+		"endDate":"1774,12,16",
+                "headline":"Франсуа Кенэ",
+                "text": "<p>Основатель школы <a href=\"http://ru.wikipedia.org/wiki/Физиократы\">физиократов</a></p><p>Противник <a href=\"http://ru.wikipedia.org/wiki/Меркантилизм\">меркантилизма</a>, несомненно влияние <a href=\"http://ru.wikipedia.org/wiki/Кантильон,_Ричард\">Кантильона</a> на физиократов</p><p>Сторонник свободного рынка при наличии деспотичной власти (для поддержки порядка в стране)</p> <p><a href=\"http://ru.wikipedia.org/wiki/Экономическая_таблица_Кенэ\">Экономическая таблица</a>, как отображение кругооборота общественного продукта и доходов - первая целостная картина экономических процессов</p> <p>Выделил понятия основного и оборотного капиталов</p><p>Основная потеря: замена <em>предпринимателей</em> Кантильона на <em>стерильный класс</em>, утрата фактора неопределенности</p><p><a href=\"http://ru.wikipedia.org/wiki/Кенэ,_Франсуа\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+                "tag" : "3",
+		"asset":
+                {
+                    "media": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/60/François_Quesnay.jpg/256px-François_Quesnay.jpg?uselang=ru",
+		    "thumbnail": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/60/François_Quesnay.jpg/64px-François_Quesnay.jpg",
+                    "credit":"Автор François_Quesnay_02.jpg: Jean-Charles François et Jean-Martial Frédou derivative work: ~Pyb (François_Quesnay_02.jpg) [Public domain], undefined",
+                    "caption":""
+                }
+            },
+	    {
+                "startDate":"1727",
+		"endDate":"1781",
+                "headline":"Жак Тюрго",
+                "text": "<p>Попытался реализовать многие идеи <a href=\"http://ru.wikipedia.org/wiki/Физиократы\">физиократов</a> на практике</p><p>1774-1776: министр финансов <a href=\"http://ru.wikipedia.org/wiki/Людовик_XVI\">Людовика XVI</a></p><p>Реформы: либерализация торговли зерном, ограничение сословных привилегий. Результат - увеличение цен на хлеб, протесты по всей стране</p><p><a href=\"http://ru.wikipedia.org/wiki/Тюрго,_Анн_Робер_Жак\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+                "tag" : "3",
+		"asset":
+                {
+                    "media": "http://upload.wikimedia.org/wikipedia/commons/c/c8/Anne_Robert_Jacques_Turgot.jpg?uselang=ru",
+		    "thumbnail": "http://upload.wikimedia.org/wikipedia/commons/c/c8/Anne_Robert_Jacques_Turgot.jpg",
+                    "credit":"Автор Charles Dupin, le jeune (Nicolas Dupin?)  автор оригинала — Charles-Nicolas Cochin [Public domain], undefined",
+                    "caption":""
+                }
+            },
+	    {
+                "startDate":"1723,6,5",
+		"endDate":"1790,7,17",
+                "headline":"Адам Смит",
+                "text": "<p>Основоположник классической политэкономии</p><p>1759: <a href=\"http://gallery.economicus.ru/cgi-bin/frame_rightn_newlife.pl?type=in&links=./in/smith/works/smith_w2.txt&img=works_small.gif&name=smith\"><em>Теория нравственных чувств</em></a></p><p>1776: <a href=\"http://inliberty.ru/library/classic/432/\"<em>Исследование о природе и причинах богатства народов</em>.</a>Первые две книги (продолжение традиций Кенэ и Кантильона) положили начало науке политической экономии</p><p>Трудовая теория стоимости</p><p>Образ \"невидимой руки\"</p><p>\"Догма Смита\": P = з/п + прибыль + рента</p><p>Три фактора производства: труд, земля и капитал</p><p>Три класса: рабочие, земельные собственники, владельцы капитала</p><p>Три вида доходов: заработная плата, рента, прибыль</p><p>Тождество: <em>сбережения = инвестиции</em></p><p><a href=\"http://ru.wikipedia.org/wiki/Смит,_Адам\"><img width=70 height=70 src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Wikipedia-logo-ru.png?uselang=ru\" alt=\"Статья в википедии\"</img></a></p>",
+                "tag" : "2",
+		"asset":
+                {
+                    "media": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/AdamSmith.jpg/256px-AdamSmith.jpg?uselang=ru",
+		    "thumbnail": "http://upload.wikimedia.org/wikipedia/commons/c/c8/Anne_Robert_Jacques_Turgot.jpg",
+                    "credit":"Автор Etching created by Cadell and Davies (1811), John Horsburgh (1828) or R.C. Bell (1872). The original depiction of Smith was created in 1787 by James Tassie in the form of an enamel paste medallion. Smith did not usually sit for his portrait, so a considerable number of engravings and busts of Smith were made not from observation but from the same enamel medallion produced by Tassie, an artist who could convince Smith to sit. [Public domain], undefined",
+                    "caption":""
+                }
+            }
+
+           ]
+    }
+}
