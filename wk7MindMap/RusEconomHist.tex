@@ -11,8 +11,7 @@
 \usepackage{enumitem}
 \usepackage{fancyhdr}
 
-
-\cfoot{\vspace*{-1cm}\small\ccbysa\ Vitaly Repin, 2014. This work is licensed under a \myhref{http://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-ShareAlike 4.0 International License}. Created with \LaTeXe. \myhref{https://github.com/vitalyrepin/HistoryEc2014/tree/master/wk7MindMap}{Sources.}}
+\cfoot{\vspace*{-1cm}\small\ccbysa\ Vitaly Repin, 2014. This work is licensed under a \href{http://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-ShareAlike 4.0 International License}. Created with \LaTeXe. \href{https://github.com/vitalyrepin/HistoryEc2014/tree/master/wk7MindMap}{Sources.}}
 \pagestyle{fancy}
 
 \usepackage{copyrightbox}
@@ -29,6 +28,7 @@
 \newlength{\onelen}\newlength{\twolen}\newlength{\threelen}
 
 \hypersetup{%
+unicode=true,           % русские буквы в раздела PDF
 pdftitle={%
 Серебряный век русской экономической мысли: П.Б. Струве, Н.К. Дмитриев, С.Н. Булгаков, М.И. Туган-Барановский, А.Д. Билимович. Конспект лекций.},
 pdfauthor={Vitaly Repin},
@@ -40,10 +40,13 @@ pdfcaptionwriter={Vitaly Repin},
 pdfcontactcity={Espoo},
 pdfcontactcountry={Finland},
 pdfcontactemail={vitaly.repin@gmail.com},
-pdflang={ru}
+pdflang={ru},
+colorlinks=true,       	% false: ссылки в рамках; true: цветные ссылки
+linkcolor=cyan,          % внутренние ссылки
+citecolor=green,        % на библиографию
+filecolor=magenta,      % на файлы
+urlcolor=blue           % на URL
 }
-
-\newcommand{\myhref}[2]{\textcolor{blue}{\href{#1}{\textcolor{blue}{#2}}}}
 
 \begin{document}
 
@@ -94,7 +97,7 @@ pdflang={ru}
 grow cyclic,
 level 1/.style={level distance=3.5cm,sibling angle=90},
 level 2/.style={text width=2cm, font=\footnotesize, level distance=3cm,sibling angle=30}]
-\node[text width=3.2cm] {\textsc{\myhref{http://ru.wikipedia.org/wiki/\%D0\%91\%D1\%83\%D0\%BB\%D0\%B3\%D0\%B0\%D0\%BA\%D0\%BE\%D0\%B2\%2C_\%D0\%A1\%D0\%B5\%D1\%80\%D0\%B3\%D0\%B5\%D0\%B9_\%D0\%9D\%D0\%B8\%D0\%BA\%D0\%BE\%D0\%BB\%D0\%B0\%D0\%B5\%D0\%B2\%D0\%B8\%D1\%87}{\textbf{С.Н. Булгаков}} (1871--1944)}}
+\node[text width=3.2cm] {\textsc{\href{http://ru.wikipedia.org/wiki/\%D0\%91\%D1\%83\%D0\%BB\%D0\%B3\%D0\%B0\%D0\%BA\%D0\%BE\%D0\%B2\%2C_\%D0\%A1\%D0\%B5\%D1\%80\%D0\%B3\%D0\%B5\%D0\%B9_\%D0\%9D\%D0\%B8\%D0\%BA\%D0\%BE\%D0\%BB\%D0\%B0\%D0\%B5\%D0\%B2\%D0\%B8\%D1\%87}{\textbf{С.Н. Булгаков}} (1871--1944)}}
   child[sibling angle=180, level distance=4.6cm] { node[text height=\onelen, text width=9cm, anchor=east] (one) {\usebox{\one}}
   }
   child[level distance=4.6cm] { node[text height=\threelen, text width=9cm,anchor=west] {\usebox{\three}}
@@ -105,13 +108,13 @@ level 2/.style={text width=2cm, font=\footnotesize, level distance=3cm,sibling a
 \node [annotation, below] at (one.south) {
 \textbf{Избранные труды}\medskip
 \begin{enumerate}[label={[\arabic*]}]
-\item \myhref{http://nasledie.enip.ras.ru/ras/view/publication/general.html?id=45124851}{Капитализм и земледелие}, 1900\,г.
+\item \href{http://nasledie.enip.ras.ru/ras/view/publication/general.html?id=45124851}{Капитализм и земледелие}, 1900\,г.
 \item Об экономическом идеале, 1903\,г.
-\item \myhref{http://nasledie.enip.ras.ru/ras/view/publication/general.html?id=43419244}{От марксизма к идеализму}, 1903\, г.
+\item \href{http://nasledie.enip.ras.ru/ras/view/publication/general.html?id=43419244}{От марксизма к идеализму}, 1903\, г.
 \item Краткий очерк политэкономии, 1906\,г.
 \item Народное хозяйство и религиозная личность, 1909\,г.
-\item \myhref{http://nasledie.enip.ras.ru/ras/view/publication/general.html?id=43523569}{Философия хозяйства}, 1912\,г.
-\item \myhref{http://nasledie.enip.ras.ru/ras/view/publication/general.html?id=42085803}{Христианство и социализм}, 1917\,г.
+\item \href{http://nasledie.enip.ras.ru/ras/view/publication/general.html?id=43523569}{Философия хозяйства}, 1912\,г.
+\item \href{http://nasledie.enip.ras.ru/ras/view/publication/general.html?id=42085803}{Христианство и социализм}, 1917\,г.
 \end{enumerate}
 };
 \end{scope}
@@ -125,7 +128,7 @@ level 2/.style={text width=2cm, font=\footnotesize, level distance=3cm,sibling a
 \elem{Социализм как положительное учение [3]}{
 \nn&Социализм максимизирует Функцию Общественной Полезности (ФОП) $\Rightarrow$ синтез трудовой и субъективной теорий стоимости возможен только при нем;\\
 \nn&План при социализме должен учитывать как предельную полезность ($MU$), так и трудовые затраты;\\
-\nn&Для определения $MU$ при социализме предлагается использовать <<механизм нащупывания>> (сравни с \myhref{http://en.wikipedia.org/wiki/Walrasian_auction}{tâtonnement Вальраса});\\
+\nn&Для определения $MU$ при социализме предлагается использовать <<механизм нащупывания>> (сравни с \href{http://en.wikipedia.org/wiki/Walrasian_auction}{tâtonnement Вальраса});\\
 \nn&Цены могут отклоняться от пропорции с трудовыми затратами, если это в интересах общества;\\
 \nn&Банковские деньги (1918 г.) --- прообраз денег при социализме (условная единица измерения цен), так как они оторваны от реальности, условны;\\
 \nn&Идеи Т.-Б. про <<социализм как положительное учение>> --- в стороне от генеральной линии развития экономической мысли.
@@ -150,14 +153,14 @@ level 2/.style={text width=2cm, font=\footnotesize, level distance=3cm,sibling a
 
 \setheights
 \vspace*{.5cm}
-\centerline{\copyrightbox{\myhref{http://commons.wikimedia.org/wiki/File\%3AMikhail_Ivanovich_Tugan-Baranovskij.jpg}{\includegraphics[height=6.2cm,keepaspectratio]{Mikhail_Ivanovich_Tugan-Baranovskij}}}{See page for author [Public domain], via Wikimedia Commons}}
+\centerline{\copyrightbox{\href{http://commons.wikimedia.org/wiki/File\%3AMikhail_Ivanovich_Tugan-Baranovskij.jpg}{\includegraphics[height=6.2cm,keepaspectratio]{Mikhail_Ivanovich_Tugan-Baranovskij}}}{See page for author [Public domain], via Wikimedia Commons}}
 \vspace*{-3.4cm}
 \begin{center}
 \begin{tikzpicture}[text width=2.7cm, align=flush center,
 grow cyclic,
 level 1/.style={level distance=3.5cm,sibling angle=90},
 level 2/.style={text width=2cm, font=\footnotesize, level distance=3cm,sibling angle=30}]
-\node[text width=3.2cm] {\textsc{\myhref{http://ru.wikipedia.org/wiki/\%D0\%A2\%D1\%83\%D0\%B3\%D0\%B0\%D0\%BD-\%D0\%91\%D0\%B0\%D1\%80\%D0\%B0\%D0\%BD\%D0\%BE\%D0\%B2\%D1\%81\%D0\%BA\%D0\%B8\%D0\%B9\%2C_\%D0\%9C\%D0\%B8\%D1\%85\%D0\%B0\%D0\%B8\%D0\%BB_\%D0\%98\%D0\%B2\%D0\%B0\%D0\%BD\%D0\%BE\%D0\%B2\%D0\%B8\%D1\%87}{\textbf{М.И. Туган-Барановский}} (1865--1919)}}
+\node[text width=3.2cm] {\textsc{\href{http://ru.wikipedia.org/wiki/\%D0\%A2\%D1\%83\%D0\%B3\%D0\%B0\%D0\%BD-\%D0\%91\%D0\%B0\%D1\%80\%D0\%B0\%D0\%BD\%D0\%BE\%D0\%B2\%D1\%81\%D0\%BA\%D0\%B8\%D0\%B9\%2C_\%D0\%9C\%D0\%B8\%D1\%85\%D0\%B0\%D0\%B8\%D0\%BB_\%D0\%98\%D0\%B2\%D0\%B0\%D0\%BD\%D0\%BE\%D0\%B2\%D0\%B8\%D1\%87}{\textbf{М.И. Туган-Барановский}} (1865--1919)}}
   child[sibling angle=180, level distance=4.6cm] { node[text height=\onelen, text width=9cm, anchor=east] (one) {\usebox{\one}}
   }
   child[level distance=4.6cm] { node[text height=\threelen, text width=9cm,anchor=west] {\usebox{\three}}
@@ -170,7 +173,7 @@ level 2/.style={text width=2cm, font=\footnotesize, level distance=3cm,sibling a
 \begin{enumerate}[label={[\arabic*]}]
 \item Учение о предельной полезности, 1890\,г.
 \item Основы политэкономии, 1909\,г.
-\item \myhref{http://nasledie.enip.ras.ru/ras/view/publication/general.html?id=47003536}{Социализм как положительное учение}, 1918\,г.
+\item \href{http://nasledie.enip.ras.ru/ras/view/publication/general.html?id=47003536}{Социализм как положительное учение}, 1918\,г.
 \item Периодические промышленные кризисы. История английских кризисов. Общая теория кризисов (4-е издание), 1923\, г.
 \end{enumerate}
 };
@@ -211,7 +214,7 @@ level 2/.style={text width=2cm, font=\footnotesize, level distance=3cm,sibling a
 grow cyclic,
 level 1/.style={level distance=3.5cm,sibling angle=90},
 level 2/.style={text width=2cm, font=\footnotesize, level distance=3cm,sibling angle=30}]
-\node[text width=3.2cm] {\textsc{\myhref{http://ru.wikipedia.org/wiki/\%D0\%91\%D0\%B8\%D0\%BB\%D0\%B8\%D0\%BC\%D0\%BE\%D0\%B2\%D0\%B8\%D1\%87\%2C_\%D0\%90\%D0\%BB\%D0\%B5\%D0\%BA\%D1\%81\%D0\%B0\%D0\%BD\%D0\%B4\%D1\%80_\%D0\%94\%D0\%BC\%D0\%B8\%D1\%82\%D1\%80\%D0\%B8\%D0\%B5\%D0\%B2\%D0\%B8\%D1\%87}{\textbf{А.Д. Билимович}} (1876--1963)}}
+\node[text width=3.2cm] {\textsc{\href{http://ru.wikipedia.org/wiki/\%D0\%91\%D0\%B8\%D0\%BB\%D0\%B8\%D0\%BC\%D0\%BE\%D0\%B2\%D0\%B8\%D1\%87\%2C_\%D0\%90\%D0\%BB\%D0\%B5\%D0\%BA\%D1\%81\%D0\%B0\%D0\%BD\%D0\%B4\%D1\%80_\%D0\%94\%D0\%BC\%D0\%B8\%D1\%82\%D1\%80\%D0\%B8\%D0\%B5\%D0\%B2\%D0\%B8\%D1\%87}{\textbf{А.Д. Билимович}} (1876--1963)}}
   child[sibling angle=180, level distance=4.6cm] { node[text height=\onelen, text width=9cm, anchor=east] {\usebox{\one}}
   }
   child[level distance=4.6cm] { node[text height=\threelen, text width=9cm,anchor=west] {\usebox{\three}}
@@ -249,7 +252,7 @@ level 2/.style={text width=2cm, font=\footnotesize, level distance=3cm,sibling a
 grow cyclic,
 level 1/.style={level distance=3.5cm,sibling angle=90},
 level 2/.style={text width=2cm, font=\footnotesize, level distance=3cm,sibling angle=30}]
-\node[text width=3.2cm] (main) {\textsc{\myhref{http://ru.wikipedia.org/wiki/\%D0\%94\%D0\%BC\%D0\%B8\%D1\%82\%D1\%80\%D0\%B8\%D0\%B5\%D0\%B2\%2C_\%D0\%92\%D0\%BB\%D0\%B0\%D0\%B4\%D0\%B8\%D0\%BC\%D0\%B8\%D1\%80_\%D0\%9A\%D0\%B0\%D1\%80\%D0\%BF\%D0\%BE\%D0\%B2\%D0\%B8\%D1\%87}{\textbf{В.К. Дмитриев}} (1868--1913)}}
+\node[text width=3.2cm] (main) {\textsc{\href{http://ru.wikipedia.org/wiki/\%D0\%94\%D0\%BC\%D0\%B8\%D1\%82\%D1\%80\%D0\%B8\%D0\%B5\%D0\%B2\%2C_\%D0\%92\%D0\%BB\%D0\%B0\%D0\%B4\%D0\%B8\%D0\%BC\%D0\%B8\%D1\%80_\%D0\%9A\%D0\%B0\%D1\%80\%D0\%BF\%D0\%BE\%D0\%B2\%D0\%B8\%D1\%87}{\textbf{В.К. Дмитриев}} (1868--1913)}}
   child[sibling angle=-90, level distance=4.6cm] { node[text height=\onelen, text width=9cm, anchor=east] {\usebox{\one}}
   }
   child[sibling angle=0,level distance=4.6cm] { node[text height=\threelen, text width=9cm,anchor=west] {\usebox{\three}}
@@ -258,8 +261,8 @@ level 2/.style={text width=2cm, font=\footnotesize, level distance=3cm,sibling a
 \node [annotation, below] at (main.south west) {
 \textbf{Избранные труды}\medskip
 \begin{enumerate}[label={[\arabic*]}]
-\item В.К. Дмитриев. \myhref{http://ru.wikipedia.org/wiki/\%D0\%AD\%D0\%BA\%D0\%BE\%D0\%BD\%D0\%BE\%D0\%BC\%D0\%B8\%D1\%87\%D0\%B5\%D1\%81\%D0\%BA\%D0\%B8\%D0\%B5_\%D0\%BE\%D1\%87\%D0\%B5\%D1\%80\%D0\%BA\%D0\%B8}{Экономические очерки}, 1904\,г.
-\item А.Д. Билимович. \myhref{http://nasledie.enip.ras.ru/ras/view/publication/general.html?id=46822430}{К вопросу о расценке хозяйственных благ}, 1914\,г.
+\item В.К. Дмитриев. \href{http://ru.wikipedia.org/wiki/\%D0\%AD\%D0\%BA\%D0\%BE\%D0\%BD\%D0\%BE\%D0\%BC\%D0\%B8\%D1\%87\%D0\%B5\%D1\%81\%D0\%BA\%D0\%B8\%D0\%B5_\%D0\%BE\%D1\%87\%D0\%B5\%D1\%80\%D0\%BA\%D0\%B8}{Экономические очерки}, 1904\,г.
+\item А.Д. Билимович. \href{http://nasledie.enip.ras.ru/ras/view/publication/general.html?id=46822430}{К вопросу о расценке хозяйственных благ}, 1914\,г.
 \end{enumerate}
 };
 \end{scope}
@@ -294,14 +297,14 @@ level 2/.style={text width=2cm, font=\footnotesize, level distance=3cm,sibling a
 \setheights
 
 \vspace*{.5cm}
-\centerline{\copyrightbox{\myhref{http://commons.wikimedia.org/wiki/File:Piotr_Struve.jpg}{\includegraphics[height=6.2cm,keepaspectratio]{Piotr_Struve}}}{By Неизвестен [Public domain], via Wikimedia Commons}}
+\centerline{\copyrightbox{\href{http://commons.wikimedia.org/wiki/File:Piotr_Struve.jpg}{\includegraphics[height=6.2cm,keepaspectratio]{Piotr_Struve}}}{By Неизвестен [Public domain], via Wikimedia Commons}}
 \vspace*{-3cm}
 \begin{center}
 \begin{tikzpicture}[text width=2.7cm, align=flush center,
 grow cyclic,
 level 1/.style={level distance=3.5cm,sibling angle=90},
 level 2/.style={text width=2cm, font=\footnotesize, level distance=3cm,sibling angle=30}]
-\node[text width=3.2cm] {\textsc{\myhref{http://ru.wikipedia.org/wiki/\%D0\%A1\%D1\%82\%D1\%80\%D1\%83\%D0\%B2\%D0\%B5\%2C_\%D0\%9F\%D1\%91\%D1\%82\%D1\%80_\%D0\%91\%D0\%B5\%D1\%80\%D0\%BD\%D0\%B3\%D0\%B0\%D1\%80\%D0\%B4\%D0\%BE\%D0\%B2\%D0\%B8\%D1\%87}{\textbf{П.Б. Струве}} (1870-1944)}}
+\node[text width=3.2cm] {\textsc{\href{http://ru.wikipedia.org/wiki/\%D0\%A1\%D1\%82\%D1\%80\%D1\%83\%D0\%B2\%D0\%B5\%2C_\%D0\%9F\%D1\%91\%D1\%82\%D1\%80_\%D0\%91\%D0\%B5\%D1\%80\%D0\%BD\%D0\%B3\%D0\%B0\%D1\%80\%D0\%B4\%D0\%BE\%D0\%B2\%D0\%B8\%D1\%87}{\textbf{П.Б. Струве}} (1870-1944)}}
   child[sibling angle=180, level distance=4.6cm] { node[text height=\onelen, text width=9cm, anchor=east] (one) {\usebox{\one}}
   }
   child[level distance=4.6cm] { node[text height=\threelen, text width=9cm,anchor=west] {\usebox{\three}}
