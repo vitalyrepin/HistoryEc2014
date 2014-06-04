@@ -1,0 +1,221 @@
+\documentclass[a4paper]{article}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{cmap}
+\usepackage{multicol}
+\usepackage{hyperxmp}
+\usepackage{hyperref}
+\usepackage[landscape,left=0.1cm, right=.1cm, top=0.1cm, bottom=1cm,paperwidth=210mm,paperheight=297mm]{geometry}
+\usepackage{stmaryrd}
+\usepackage{verbatim}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{fancyhdr}
+
+\chead{}\rhead{}\lhead{}
+\cfoot{\vspace*{-1cm}\small\ccbysa\ Vitaly Repin, 2014. This work is licensed under a \href{http://creativecommons.org/licenses/by-sa/3.0/}{Creative Commons Attribution-ShareAlike 3.0 License}. Created with \LaTeXe. \href{https://github.com/vitalyrepin/HistoryEc2014/tree/master/wk7MindMap}{Sources.}\\ По материалам лекций проф. Макашевой (ВШЭ): \href{https://www.coursera.org/course/historyofec}{История экономической мысли: <<Джон Мейнард Кейнс: революционер-реформатор>>.}}
+\pagestyle{fancy}
+
+\usepackage{tikz}
+\usepackage{ccicons}
+\usetikzlibrary{mindmap}
+\usetikzlibrary{arrows}
+
+\newcommand{\upperRomannumeral}[1]{\uppercase\expandafter{\romannumeral#1}}
+
+\definecolor{historyfg}{HTML}{77797C}
+\definecolor{historybg}{HTML}{EEEEEE}
+\definecolor{scibg}{HTML}{EEEEEE}
+
+\hypersetup{%
+unicode=true,           % русские буквы в раздела PDF
+pdftitle={%
+История экономической мысли (лекции ВШЭ): Кейнс и кейнсианство.},
+pdfauthor={Vitaly Repin},
+pdfcopyright={This work is licensed under Creative Commons Attribution-ShareAlike 3.0 License},
+pdfsubject={История экономической мысли: Д.М. Кейнс},
+pdfkeywords={Кейнс, кейнсианство},
+pdflicenseurl={http://creativecommons.org/licenses/by-sa/3.0/},
+pdfcaptionwriter={Vitaly Repin},
+pdfcontactcity={Espoo},
+pdfcontactcountry={Finland},
+pdfcontactemail={vitaly.repin@gmail.com},
+pdflang={ru},
+colorlinks=true,       	% false: ссылки в рамках; true: цветные ссылки
+linkcolor=cyan,          % внутренние ссылки
+citecolor=green,        % на библиографию
+filecolor=magenta,      % на файлы
+urlcolor=blue           % на URL
+}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0mm}
+\pgfdeclarelayer{background}
+\pgfsetlayers{background,main}
+
+\begin{center}
+\begin{tikzpicture}[mindmap,scale=1.2,
+every node/.style={concept,execute at begin node=\hskip0pt},
+concept45/.style={concept, sibling angle=45},
+root concept/.append style={
+concept color=black, fill=white, line width=1ex, text=black,minimum size=3cm,text width=3cm,font=\large\scshape},
+text=historyfg,
+level 1/.append style={sibling angle=120, level distance=3.2cm},
+level 2/.append style={minimum size=3cm, text width=2.7cm,level distance=3.1cm, font=\small},
+level 3/.append style={minimum size=1.3cm,level distance=3.2cm, text width=2cm, font=\small},
+level 4/.append style={minimum size=1.1cm, text width=3cm},
+concept color=historybg,grow cyclic,
+remark/.style={
+rectangle,
+sloped,
+minimum size=4mm,
+very thin,
+color=white,
+text=black,
+font=\itshape
+}]
+\node[root concept] {\href{http://ru.wikipedia.org/wiki/%D0%9A%D0%B5%D0%B9%D0%BD%D1%81%2C_%D0%94%D0%B6%D0%BE%D0%BD_%D0%9C%D0%B5%D0%B9%D0%BD%D0%B0%D1%80%D0%B4}{Д.М. Кейнс (1883--1946)}}
+   child[concept, sibling angle=120] { node{Философия}
+  	child { node[text=brown] (uncert) {Интерес к проблеме неопределенности}
+		child[level distance=3.4cm] { node {(Вероятностная) логика нестрогого следования: <<Трактат о вероятности>> (1921)} }
+		child[sibling angle=90, level distance=3.4cm] { node {Знание = логика + интуиция. Интуиция важна для агентов фин. рынка!}}
+	}
+	child { node {Отказ от идеи построения универсальной картины мира} }
+    }
+    child { node {Деньги и \%}
+	child { node[text=brown] (pastcurr) {Деньги --- связь между настоящим и будущим}
+		child[sibling angle=90] {node {\href{http://ru.wikipedia.org/wiki/\%D0\%A2\%D0\%B5\%D0\%BE\%D1\%80\%D0\%B8\%D1\%8F_\%D0\%B4\%D0\%B5\%D0\%BD\%D0\%B5\%D0\%B3\%23.D0.9A.D0.BE.D0.BB.D0.B8.D1.87.D0.B5.D1.81.D1.82.D0.B2.D0.B5.D0.BD.D0.BD.D0.B0.D1.8F_.D1.82.D0.B5.D0.BE.D1.80.D0.B8.D1.8F_.D0.B4.D0.B5.D0.BD.D0.B5.D0.B3_.28.D0.BA.D0.BE.D0.BD.D0.B5.D1.86_17_.D0.B2._-_.D0.BD.D0.B0.D1.87.D0.B0.D0.BB.D0.BE_18_.D0.B2._-....29}{Количественная теория денег} $C=S/V$ этого не видит}}
+		child {node {Кейнс меняет взгляд на задачи ден. политики}}
+	}
+	child[text=brown] { node (percent) {\% --- выражение предпочтения между настоящим и будущим }}
+        child { node {Деньги ведут себя иначе, чем др. товары (чем они дороже, тем выше спрос!) }}
+    }
+    child[concept] { node {Отказ от викторианской этики}
+	child { node { Общее благо $\neq\Sigma$ благ индивидов}  }
+	child { node (indiv) { Критика рационалистического индивидуализма}  }
+	child { node (save) { Накопление не есть абсолютная добродетель }  }
+	child[level distance=4cm] { node { Экономическую политику должны определять \textbf{\underline{не}} абсолютные принципы, а \textbf{целесообразность в сложившихся условиях} }  }
+  	child[level distance=4cm] { node[text=brown] (faire) {Отказ от \href{http://ru.wikipedia.org/wiki/Laissez-faire}{принципа Laissez-faire}: \textcolor{brown}{\textbf{необходимо} $\uparrow$ роли государства для $\downarrow$ рисков и неопределенности}}}
+  };
+\begin{scope}[every annotation/.style={font=\normalsize, fill=white, text width=9cm}]
+\node [annotation, right] at (indiv.east) {
+Рациональные действия, направленный на $\uparrow$ вашего богатства могут привести ко всеобщей (в т.ч. вашей!) бедности! Пр.: никто не тратит деньги, ожидая $\downarrow$ цен.
+};
+\node [annotation, left] at (save.west) {
+Раньше (Кейнс, 1926): <<богатый человек мог попасть в Царствие Небесное, если только он делал сбережения>>.};
+\end{scope}
+\begin{pgfonlayer}{background}
+	\draw [concept connection] (uncert) edge (faire);
+\end{pgfonlayer}
+\node[remark, text width=7.4cm] at (-10, -1) {\parbox{7.3cm}{\emph{Кейнс, 1925:} {<<Я направляю все свои усилия и внимание на поиск новых путей и новых идей относительно перехода от экономической анархии индивидуалистического капитализма\dots к режиму, который имеет целью контроль и направление экономических сил \textbf{в интересах социальной справедливости и устойчивости}>>.}}};
+\node[remark, text width=11cm] at (3, -9) {Лекция 8.5. Философия, этика и «Денежная» трилогия Кейнса};
+\end{tikzpicture}
+\end{center}
+\newpage
+
+\newgeometry{left=1cm, right=1cm, top=.8cm, bottom=1cm}
+
+\setlength{\columnseprule}{.4pt}
+\centerline{\large\it Лекция 8.6. «Общая теория занятости, процента и денег» (1936). Слайд \upperRomannumeral{1}.}
+\smallskip
+
+\begin{center}
+\begin{tabular}{|p{.49\textwidth}|p{.49\textwidth}|}
+\hline
+\Large\sc Совокупный спрос & \Large\sc Деньги и процент\\
+\hline
+Сбережения $\neq$ спрос! (разрыв с классикой, споры с австрийцами)
+
+\begin{description}
+\item[\textbf{Инвестиционный спрос I}] {--- потенциальная потребность предпринимателей, выраженная в денежной форме, в приобретении товаров инвестиционного назначения с целью получения дохода (\textbf{Y}).}
+\item[\textbf{Потребительский спрос C}] { ---  часть совокупного спроса в экономике, относящаяся к потребительским товарам.}
+\end{description}
+
+\noindent \textbf{Совокупный спрос} зависит от \textbf{I} и \textbf{C,} но \textbf{I} - основной компонент!
+\smallskip
+
+\noindent Компоненты инвестиционного спроса $I:$
+\begin{itemize}
+\item \textbf{Предельная эффективность капитала $\bm{\eta}$} --- наиболее высокая процентная ставка $\bm{i}$, при которой можно рассчитывать на окупаемость проекта
+\item \textbf{Мультипликатор Кейнса $\bm{\mu}$} показывает, насколько изменение инвестиций способствует изменению дохода. $\mu = \text{ПСС}^{-1}.$ Высокая ПСС снижает $\mu$ и потому опасна!
+\begin{itemize}
+\item \textbf{Предельная склонность к сбережению ПСС (MPS)} --- часть полученной населением дополнительной денежной единицы, направляемая на дополнительное сбережение, $\text{ПСС} = 1-\text{ПСП}$
+\item \textbf{Предельная склонность к потреблению ПСП (MPC)} --- часть полученной населением дополнительной денежной единицы, направляемая на дополнительное потребление, $\text{ПСП} = 1-\text{ПСС}$
+\item \href{http://ru.wikipedia.org/wiki/\%D0\%9E\%D1\%81\%D0\%BD\%D0\%BE\%D0\%B2\%D0\%BD\%D0\%BE\%D0\%B9_\%D0\%BF\%D1\%81\%D0\%B8\%D1\%85\%D0\%BE\%D0\%BB\%D0\%BE\%D0\%B3\%D0\%B8\%D1\%87\%D0\%B5\%D1\%81\%D0\%BA\%D0\%B8\%D0\%B9_\%D0\%B7\%D0\%B0\%D0\%BA\%D0\%BE\%D0\%BD}{Основной психологический закон} --- процент дохода, направляемый на сбережения, растёт по мере роста доходов.
+\end{itemize}
+\item \textbf{Инвестиции и доход (Y)}
+\end{itemize}
+
+Экономикой движет \emph{прежде всего} $I.$
+&
+Деньги - не только средство обращения, но это ликвидный актив. Альтернатива вложению в длительные, рискованные активы.
+
+\begin{itemize}
+\item \textbf{\href{http://ru.wikipedia.org/wiki/\%D0\%9F\%D1\%80\%D0\%B5\%D0\%B4\%D0\%BF\%D0\%BE\%D1\%87\%D1\%82\%D0\%B5\%D0\%BD\%D0\%B8\%D0\%B5_\%D0\%BB\%D0\%B8\%D0\%BA\%D0\%B2\%D0\%B8\%D0\%B4\%D0\%BD\%D0\%BE\%D1\%81\%D1\%82\%D0\%B8}{Предпочтение ликвидности} $\bm{\lambda}$} --- показатель спроса на денежные средства, трактуемые как ликвидность.
+\item \textbf{\textit{M}} - количество денег в обращении.
+\item \textbf{Процент \textit{i}} --- плата за расставание с ликвидностью. $i \varpropto \lambda,$ так как чем больше нежелание расставаться с денежной формой богатства, тем выше процент как вознаграждение за отказ от ликвидности; $i\varpropto M^{-1},$ так как норма процента $\downarrow$ по мере роста количества
+денег и $\uparrow$ при увеличении спроса на деньги по сравнению с их предложением.
+\item Курсы ценных бумаг влияют на \%, под который реальный сектор получает кредиты (влияние финансового рынка  (<<казино>>) на реальный). В частности, \emph{могут помешать понизить кредитную ставку для стимулирования инвестиций.}
+\item <<Простая>> модель: $M - (\lambda) \rightarrow i - (\eta) \rightarrow I - (\mu) \rightarrow Y,$ где $\mu, \lambda$ и $\eta$ --- экзогенные (внешние) параметры.
+\begin{itemize}
+\item При заданной $\mu\, \text{(ПСП),}$ уровень занятости и доход $Y$ определяются $I$
+\item При заданной $\eta,$ инвестиционный спрос $I$ определяется процентом $i$
+\item При заданном $\lambda,$ процент $i$ определяется денежной массой $M$
+\end{itemize}
+\item \textbf{\href{http://ru.wikipedia.org/wiki/\%D0\%9B\%D0\%BE\%D0\%B2\%D1\%83\%D1\%88\%D0\%BA\%D0\%B0_\%D0\%BB\%D0\%B8\%D0\%BA\%D0\%B2\%D0\%B8\%D0\%B4\%D0\%BD\%D0\%BE\%D1\%81\%D1\%82\%D0\%B8}{Ловушка ликвидности}} --- ситуация, когда монетарные власти не имеют инструментов для стимулирования экономики, ни через $\downarrow i,$  ни через $\uparrow M.$ Обычно возникает, когда ожидания негативных событий (напр., дефляции) ведут к $\uparrow\lambda.$
+\item \textbf{Кризис} --- следствие неоправдавшихся ожиданий инвесторов, а вовсе не переинвестирование (позиция классиков). Избыток инвестиций не м.б. абсолютным, но инвестиции м.б. избыточными \emph{по сравнению} с ожиданиями. Доп. фактор: лавинообразное распространение пессимизма.
+\end{itemize}\\
+\hline
+\end{tabular}
+\end{center}
+
+\newpage
+\centerline{\large\it Лекция 8.6. «Общая теория занятости, процента и денег» (1936). Слайд \upperRomannumeral{2}.}
+\smallskip
+\begin{center}
+\begin{tabular}{|p{.49\textwidth}|p{.49\textwidth}|}
+\hline
+\multicolumn{2}{|c|}{\Large{\textsf{\mathstrut Переворот представлений о рынке труда}}}\\
+\hline
+\multicolumn{1}{|l|}{\Large\sc\mathstrut Классики} & \multicolumn{1}{l|}{\Large\sc\mathstrut Кейнс}\\
+\hline
+\begin{itemize}
+\item Спрос и предложение обеспечивают равновесие на рынке труда;
+\item Безработица в классической модели имеет добровольный характер, поскольку ее причиной выступает отказ рабочего работать за данную ставку номинальной з/п.
+\end{itemize}
+&
+\begin{itemize}
+\item Предложение труда определяется \emph{номинальной} з/п, а спрос на труд --- \emph{реальной;}
+\item \emph{Парадокс макро и микро:} Если $\downarrow$ номинальной з/п приведет к $\uparrow$ реальной з/п (напр., из-за снижения цен на товары вследствие $\downarrow$ издержек на з/п), то фирмы начнут увольнять людей и безработица $\uparrow;$
+\item \framebox{Устранение безработицы ценовыми методами невозможно!}
+\end{itemize}\\
+\hline
+\end{tabular}
+\end{center}
+
+\medskip
+
+{\large\sc Выводы}
+
+\begin{itemize}
+\item \emph{Парадокс макро и микро:} \framebox{Высокая ПСС снижает $\mu$ и потому опасна (способствует спаду)!}
+\item Не бережливость, а \framebox{предприимчивость --- движущая сила процесса накопления!}
+\item Главный практический вывод: \framebox{опасно (для экономики и общества) оставлять в частных руках регулирование объема инвестиций.}
+\item \framebox{Цель экономической политики: увеличение производства и занятости.}\\[.1cm] Способы достижения:
+\begin{itemize}
+\item Прежде всего стимулирование инвестиционного спроса $I$ (фискальная политика для $\uparrow$ ПСП,
+$\downarrow i,$ но см. также \href{http://ru.wikipedia.org/wiki/\%D0\%9B\%D0\%BE\%D0\%B2\%D1\%83\%D1\%88\%D0\%BA\%D0\%B0_\%D0\%BB\%D0\%B8\%D0\%BA\%D0\%B2\%D0\%B8\%D0\%B4\%D0\%BD\%D0\%BE\%D1\%81\%D1\%82\%D0\%B8}{ловушку ликвидности}).
+\item Если перераспределять доходы в пользу бедных или государства, то они будут не сберегать, \emph{а тратить} $\Rightarrow$ \framebox{фискальная политика может способствовать $\uparrow \mu.$}
+\\ А это означает, что социальные и экономические цели не конфликтуют (в отличие от классиков)!
+\item \textsl{\small/не надо воспринимать как гимн в пользу инфляции/} $\uparrow M$ для обслуживания возросшего денежного дохода (в случае успеха других мер). Иначе недостаточная денежная масса $M$ будет способствовать $\uparrow i.$
+\item Институциональные меры, направленные на $\downarrow$ неопределенности (напр., страхование депозитов, регулирование фин. рынка), создание благоприятного климата (напр., большие гос. проекты
+имеют не только прямой, но и косвенный эффект --- стимулирование <<инвестиционного бума>>).
+\end{itemize}
+\end{itemize}
+
+
+
+\end{document}
